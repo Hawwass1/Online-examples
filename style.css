@@ -41,15 +41,13 @@ input[type="button"]:hover{
     background-color:black;
     color:white;
 }
-input[type="radio"]{
-    display: flex;
-    flex-direction: row;
-    font-size: 10px;
-}
 #Location {
     display: none;
 }
 h2{
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#Education{
+    display: none;
 }
