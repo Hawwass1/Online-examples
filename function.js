@@ -16,3 +16,19 @@ function backk() {
     document.getElementById("Location").style.display= "flex";
     document.getElementById("Education").style.display = "none";
 }
+function check(){
+    if(Personal.innerHTML.valueOf("focus" == "")) {
+        alert("Please Input Your Details")
+         
+    }
+    else{
+        Personal.style.display = "none";
+        education.style.display = "flex";   
+    }
+}
+
+function checkval(){
+    if(education.innerHTML.valueOf("focus" == "")) {
+        alert("Please Input Your Details")
+    }
+}
